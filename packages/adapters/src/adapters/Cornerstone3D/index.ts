@@ -16,6 +16,8 @@ import Probe from "./Probe";
 import * as Segmentation from "./Segmentation";
 import * as RTSS from "./RTStruct";
 
+//Orbix
+import OrbixLength from "./OrbixLength";
 const Cornerstone3DSR = {
     Bidirectional,
     CobbAngle,
@@ -29,7 +31,8 @@ const Cornerstone3DSR = {
     PlanarFreehandROI,
     MeasurementReport,
     CodeScheme,
-    CORNERSTONE_3D_TAG
+    CORNERSTONE_3D_TAG,
+    OrbixLength
 };
 
 const Cornerstone3DSEG = {
